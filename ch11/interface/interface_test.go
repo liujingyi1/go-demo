@@ -32,4 +32,6 @@ func TestInterface(t *testing.T) {
 
 	ret := p2.WriteHelloWorld()
 	t.Log(ret)
+
+	t.Log(p.WriteHelloWorld())
 }
