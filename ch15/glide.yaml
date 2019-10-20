@@ -1,0 +1,4 @@
+package: go-demo/ch15
+import:
+- package: github.com/easierway/concurrent_map
+  version: 0.9.1
